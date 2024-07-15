@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="./script.js" defer></script>
+    <link rel="stylesheet" href="./styles.css">
+</head>
+<h1 style="font-family: Georgia, 'Times New Roman', Times, serif;">Library</h1>
+<body>
+    <div id="section1">
+        <div>
+            <input id="searchBar" placeholder="search a book", style="width:400px; height: 30px; border-radius:10px; padding-left: 5px;">
+            <p> click enter on empty to empty list</p>
+        </div>
+    </div>
+    <div id="section2" class="section2">
+        <button id="addButton" class="editButton" style="width:150px; height:25px;">add a book</button>
+        <button id="displayAllBooks" class="editButton" style="width:150px; height:25px;">display all book</button>
+    </div>
+
+    <div id="displayBooks" class="displayBooks">
+        <div id="headings" style="display:flex; flex-direction: row; justify-content: space-between;">
+            <h2>Title</h2>
+            <h2>Author</h2>
+            <h2>Info</h2>
+            <h2>Pages</h2>
+            <h2>Status</h2>
+        </div>
+        <div id="books">
+
+        </div>
+    </div>
+
+</body>
+</html>

@@ -1,0 +1,44 @@
+body{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 30px;
+    background-color: lightblue;
+}
+
+.editButton{
+    border-radius:10px;
+    
+}
+
+.section2{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    align-items: center;
+}
+
+.infoOfBook{
+    display:flex;
+    flex-direction: column;
+
+}
+
+.displayBooks{
+    display:flex;
+    background-color: #DCDCDC;
+    width: 85%;
+    flex-direction: column;
+    padding:20px;
+}
+.card{
+    flex-direction: row;
+    display:flex;
+    justify-content: space-between;
+
+}
+
+p{
+    font-size:15px
+}
